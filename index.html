@@ -21,6 +21,9 @@
             font-family: "Poppins", serif;
             
           }
+          .linear{
+            background: linear-gradient(180deg, rgb(243, 243, 243), rgba(243, 243, 243, 0) 100%);
+          }
     </style>
     <script>
         tailwind.config = {
@@ -37,7 +40,7 @@
       </script>
 </head>
 <body class="poppins-fonts">
-    <header class="md:container md:mx-auto">
+    <header class="md:container mx-auto">
         <!-- start navbar -->
         <nav>
             <div class="navbar bg-base-100">
@@ -98,10 +101,137 @@
               </div>
         </nav>
         <!-- end navbar -->
-         <!-- start banner section -->
+         <!-- start hero section -->
+          <section class="my-16">
+            <div
+  class="hero min-h-screen"
+  style="background-image: url(./images/banner.png);">
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content text-neutral-content text-center">
+    <div class="max-w-lg">
+      <h1 class="mb-5 text-5xl font-bold text-white leading-snug">We Provide Effective Legal Solutions</h1>
+      <p class="mb-5 mt-6 text-base text-[#E7E7E7] font-normal">
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+      </p>
+      
+      <form action="" class="flex flex-col md:flex-row gap-4 mt-7">
+        <input class=" rounded-lg flex-1 px-6 py-3 border-none" type="text" placeholder="Search your services">
+        <button class="btn bg-legal-primary text-white py-4 px-6">Search</button>
+      </form>
+      
+    
+    
+    </div>
+  </div>
+</div>
+          </section>
     </header>
-    <main class="md:container md:mx-auto">
+    <main class="md:container mx-auto">
+               <section>
+                <h2 class="text-4xl font-extrabold text-[#414040] text-center">The Legal Practice Area</h2>
+                <p class="font-normal text-[#707070] text-center mt-6">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+                <!-- container -->
+                <div class="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                    <!-- card-1 -->
+                <div class="card bg-base-100 rounded-none border-b-2 border-gray-100  ">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="./images/business.png"
+                        alt="business"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-4">
+                      <h2 class="text-3xl font-bold text-[#414040]">Business Law!</h2>
+                      <p class="text-base font-normal text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <div class="card-actions">
+                        <button><img src="./images/Frame.png" alt=""></button>
+                      </div>
+                    </div>
+                  </div>
+                    <!-- card-2 -->
+                <div class="card bg-base-100 rounded-none border border-gray-200 linear">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="./images/business.png"
+                        alt="business"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-4">
+                      <h2 class="text-3xl font-bold text-[#414040]">Business Law!</h2>
+                      <p class="text-base font-normal text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <div class="card-actions">
+                        <button><img src="./images/Frame.png" alt=""></button>
+                      </div>
+                    </div>
+                  </div>
+                    <!-- card-3 -->
+                <div class="card bg-base-100 rounded-none border-b-2 border-gray-100 ">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="./images/business.png"
+                        alt="business"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-4">
+                      <h2 class="text-3xl font-bold text-[#414040]">Business Law!</h2>
+                      <p class="text-base font-normal text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <div class="card-actions">
+                        <button><img src="./images/Frame.png" alt=""></button>
+                      </div>
+                    </div>
+                  </div>
+                    <!-- card-4 -->
+                <div class="card bg-base-100 rounded-none border-r-2 border-gray-100 ">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="./images/business.png"
+                        alt="business"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-4">
+                      <h2 class="text-3xl font-bold text-[#414040]">Business Law!</h2>
+                      <p class="text-base font-normal text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <div class="card-actions">
+                        <button><img src="./images/Frame.png" alt=""></button>
+                      </div>
+                    </div>
+                  </div>
+                    <!-- card-5 -->
+                <div class="card bg-base-100 card bg-base-100 rounded-none border-r-2 border-gray-100  ">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="./images/business.png"
+                        alt="business"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-4">
+                      <h2 class="text-3xl font-bold text-[#414040]">Business Law!</h2>
+                      <p class="text-base font-normal text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <div class="card-actions">
+                        <button><img src="./images/Frame.png" alt=""></button>
+                      </div>
+                    </div>
+                  </div>
+                    <!-- card-6 -->
+                <div class="card bg-base-100 ">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="./images/business.png"
+                        alt="business"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-4">
+                      <h2 class="text-3xl font-bold text-[#414040]">Business Law!</h2>
+                      <p class="text-base font-normal text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <div class="card-actions">
+                        <button><img src="./images/Frame.png" alt=""></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
+ </section>
+               
     </main>
     <footer>
 
